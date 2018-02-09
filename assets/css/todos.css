@@ -8,3 +8,7 @@ body{
 	border: 2px solid grey;
 }
 
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
