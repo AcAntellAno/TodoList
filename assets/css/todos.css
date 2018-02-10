@@ -27,10 +27,6 @@ span {
 	transition: 0.2s linear;
 	opacity: 0;
 }
-li:hover span {
-	width: 40px;
-	opacity: 1.0;
-}
 ul {
 	list-style: none;
 	margin: 0;
@@ -41,6 +37,10 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: rgb(102, 102, 102);
+}
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
 }
 li:nth-child(2n) {
 	background: #f7f7f7;
