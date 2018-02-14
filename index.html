@@ -7,6 +7,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<script src="assets/js/lib/jquery-3.3.1.min.js" type="text/javascript">
 	</script>
+
 </head>
 <body>
 	<div id="container">
@@ -19,6 +20,21 @@
 			<li><span><i class="fa fa-trash"></i></span> Review bio</li>
 		</ul>
 	</div>
+	<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAypAB-uG2P-sQ5HBf2voXvNE7yZkdCNbE",
+    authDomain: "todolist-85eeb.firebaseapp.com",
+    databaseURL: "https://todolist-85eeb.firebaseio.com",
+    projectId: "todolist-85eeb",
+    storageBucket: "todolist-85eeb.appspot.com",
+    messagingSenderId: "170879154676"
+  };
+  firebase.initializeApp(config);
+</script>
+	<script src="assets/js/firebaseSignIn.js" type="text/javascript"></script>
 	<script src="assets/js/todos.js" type="text/javascript">
 	</script>
 </body>
